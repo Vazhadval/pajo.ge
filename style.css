@@ -567,6 +567,76 @@ p {
   font-size: 0.92rem;
 }
 
+/* ---------- Gallery ---------- */
+.gallery-grid {
+  column-count: 3;
+  column-gap: 16px;
+}
+.gallery-item {
+  display: block;
+  width: 100%;
+  margin: 0 0 16px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  cursor: pointer;
+  background: none;
+  break-inside: avoid;
+  line-height: 0;
+}
+.gallery-item img {
+  width: 100%;
+  display: block;
+  transition: transform var(--transition);
+}
+.gallery-item:hover img,
+.gallery-item:focus-visible img {
+  transform: scale(1.05);
+}
+
+/* ---------- Lightbox ---------- */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.92);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--transition);
+}
+.lightbox.open {
+  opacity: 1;
+  visibility: visible;
+}
+.lightbox-img {
+  max-width: 92vw;
+  max-height: 88vh;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow);
+}
+.lightbox-close {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  font-size: 2rem;
+  line-height: 1;
+  color: #fff;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color var(--transition);
+}
+.lightbox-close:hover {
+  color: var(--red-bright);
+}
+
 /* ---------- Why choose us ---------- */
 .why-grid {
   display: grid;
@@ -875,6 +945,9 @@ p {
   .about-media {
     order: -1;
   }
+  .gallery-grid {
+    column-count: 2;
+  }
   .footer-inner {
     grid-template-columns: 1fr 1fr;
   }
@@ -930,6 +1003,9 @@ p {
   .about-cards,
   .footer-inner {
     grid-template-columns: 1fr;
+  }
+  .gallery-grid {
+    column-count: 1;
   }
   .hero-stats {
     gap: 32px;

@@ -21,13 +21,14 @@
       "nav.services": "Services",
       "nav.artists": "Artists",
       "nav.equipment": "Equipment",
+      "nav.gallery": "Gallery",
       "nav.why": "Why Us",
       "nav.process": "Process",
       "nav.contact": "Contact",
 
       "hero.eyebrow": "Record Label · Kutaisi, Georgia",
-      "hero.title1": "Where Georgian Sound",
-      "hero.title2": "Becomes a Movement",
+      "hero.title1": "Your Music",
+      "hero.title2": "Starts Here",
       "hero.tagline":
         "PAJO Records crafts, records and amplifies bold new music — from the first idea in the studio to the moment your track plays around the world.",
       "hero.cta1": "Start Your Project",
@@ -37,7 +38,7 @@
       "hero.stat3": "Streams",
 
       "about.eyebrow": "About the Label",
-      "about.title": "A Record Company Built in the Heart of Kutaisi",
+      "about.title": "A Sound Recording Company With Deep Experience",
       "about.p1":
         "PAJO Records (PAJO.GE) is an independent Georgian record company rooted in the cultural energy of Kutaisi. We are producers, engineers and storytellers who believe great records are made by people who genuinely care about sound.",
       "about.p2":
@@ -89,6 +90,11 @@
       "equipment.e2_desc": "ADAM Audio T8",
       "equipment.e3_title": "Audio Interface",
       "equipment.e3_desc": "UAD Volt 476",
+
+      "gallery.eyebrow": "Inside PAJO",
+      "gallery.title": "Studio Gallery",
+      "gallery.lead":
+        "A look inside our Kutaisi studio — where the sound comes to life.",
 
       "why.eyebrow": "Why PAJO",
       "why.title": "Why Artists Choose Us",
@@ -144,13 +150,14 @@
       "nav.services": "სერვისები",
       "nav.artists": "არტისტები",
       "nav.equipment": "აპარატურა",
+      "nav.gallery": "გალერეა",
       "nav.why": "რატომ ჩვენ",
       "nav.process": "პროცესი",
       "nav.contact": "კონტაქტი",
 
       "hero.eyebrow": "ჩამწერი ლეიბლი · ქუთაისი, საქართველო",
-      "hero.title1": "ქართული ჟღერადობა",
-      "hero.title2": "მოძრაობად იქცევა",
+      "hero.title1": "შენი მუსიკა",
+      "hero.title2": "აქ იწყება",
       "hero.tagline":
         "PAJO Records ქმნის, წერს და ავრცელებს ახალ მუსიკას — სტუდიაში დაბადებული პირველი იდეიდან მომენტამდე, როცა შენი ტრეკი მთელ მსოფლიოში ჟღერს.",
       "hero.cta1": "დაიწყე პროექტი",
@@ -160,7 +167,7 @@
       "hero.stat3": "მოსმენა",
 
       "about.eyebrow": "ლეიბლის შესახებ",
-      "about.title": "ჩამწერი კომპანია ქუთაისის გულში",
+      "about.title": "ხმის ჩამწერი კომპანია დიდი გამოცდილებით",
       "about.p1":
         "PAJO Records (PAJO.GE) არის დამოუკიდებელი ქართული ჩამწერი კომპანია, ფესვგადგმული ქუთაისის კულტურულ ენერგიაში. ჩვენ ვართ პროდიუსერები, ინჟინრები და მთხრობელები, რომელთაც გვწამს, რომ შესანიშნავ ჩანაწერებს ქმნიან ადამიანები, რომელთაც ნამდვილად აინტერესებთ ჟღერადობა.",
       "about.p2":
@@ -212,6 +219,11 @@
       "equipment.e2_desc": "ADAM Audio T8",
       "equipment.e3_title": "აუდიო ინტერფეისი",
       "equipment.e3_desc": "UAD Volt 476",
+
+      "gallery.eyebrow": "PAJO-ს კულისები",
+      "gallery.title": "სტუდიის გალერეა",
+      "gallery.lead":
+        "ჩვენი ქუთაისის სტუდიის კულისები — სადაც ხმა ცოცხლდება.",
 
       "why.eyebrow": "რატომ PAJO",
       "why.title": "რატომ გვირჩევენ არტისტები",
@@ -267,13 +279,14 @@
       "nav.services": "Услуги",
       "nav.artists": "Артисты",
       "nav.equipment": "Оборудование",
+      "nav.gallery": "Галерея",
       "nav.why": "Почему мы",
       "nav.process": "Процесс",
       "nav.contact": "Контакты",
 
       "hero.eyebrow": "Лейбл звукозаписи · Кутаиси, Грузия",
-      "hero.title1": "Грузинское звучание",
-      "hero.title2": "становится движением",
+      "hero.title1": "Твоя музыка",
+      "hero.title2": "начинается здесь",
       "hero.tagline":
         "PAJO Records создаёт, записывает и продвигает смелую новую музыку — от первой идеи в студии до момента, когда ваш трек звучит по всему миру.",
       "hero.cta1": "Начать проект",
@@ -283,7 +296,7 @@
       "hero.stat3": "Прослушиваний",
 
       "about.eyebrow": "О лейбле",
-      "about.title": "Звукозаписывающая компания в сердце Кутаиси",
+      "about.title": "Студия звукозаписи с большим опытом",
       "about.p1":
         "PAJO Records (PAJO.GE) — независимая грузинская звукозаписывающая компания, укоренённая в культурной энергии Кутаиси. Мы продюсеры, инженеры и рассказчики, верящие, что отличные записи создают люди, которым действительно важен звук.",
       "about.p2":
@@ -335,6 +348,11 @@
       "equipment.e2_desc": "ADAM Audio T8",
       "equipment.e3_title": "Аудиоинтерфейс",
       "equipment.e3_desc": "UAD Volt 476",
+
+      "gallery.eyebrow": "Внутри PAJO",
+      "gallery.title": "Галерея студии",
+      "gallery.lead":
+        "Загляните в нашу студию в Кутаиси — где рождается звук.",
 
       "why.eyebrow": "Почему PAJO",
       "why.title": "Почему артисты выбирают нас",
@@ -536,6 +554,45 @@
       el.classList.add("visible");
     });
   }
+
+  /* ---------- Gallery lightbox ---------- */
+  var lightbox = document.getElementById("lightbox");
+  var lightboxImg = document.getElementById("lightboxImg");
+  var lightboxClose = document.getElementById("lightboxClose");
+
+  function openLightbox(src, alt) {
+    if (!lightbox || !lightboxImg) return;
+    lightboxImg.src = src;
+    lightboxImg.alt = alt || "";
+    lightbox.classList.add("open");
+    lightbox.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeLightbox() {
+    if (!lightbox) return;
+    lightbox.classList.remove("open");
+    lightbox.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+    if (lightboxImg) lightboxImg.src = "";
+  }
+
+  document.querySelectorAll(".gallery-item").forEach(function (item) {
+    item.addEventListener("click", function () {
+      var img = item.querySelector("img");
+      if (img) openLightbox(img.src, img.alt);
+    });
+  });
+
+  if (lightboxClose) lightboxClose.addEventListener("click", closeLightbox);
+  if (lightbox) {
+    lightbox.addEventListener("click", function (e) {
+      if (e.target === lightbox) closeLightbox();
+    });
+  }
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeLightbox();
+  });
 
   /* ---------- Contact form (mailto-based, no backend) ---------- */
   /*
