@@ -122,6 +122,7 @@
       "contact.title": "Let's Make Your Next Record",
       "contact.lead":
         "Tell us about your project and our team will get back to you within one business day.",
+      "contact.phone_label": "Phone",
       "contact.email_label": "Email",
       "contact.location_label": "Location",
       "contact.location_value": "Kutaisi, Georgia",
@@ -142,7 +143,8 @@
       "form.subject": "New project inquiry from",
 
       "footer.brand": "Independent record label · Kutaisi, Georgia.",
-      "footer.copy": "PAJO Records · PAJO.GE — All rights reserved."
+      "footer.copy": "PAJO Records · PAJO.GE — All rights reserved.",
+      "footer.created_by": "Created by"
     },
 
     ka: {
@@ -251,6 +253,7 @@
       "contact.title": "მოდი შევქმნათ შენი შემდეგი ჩანაწერი",
       "contact.lead":
         "მოგვიყევი შენი პროექტის შესახებ და ჩვენი გუნდი ერთ სამუშაო დღეში დაგიკავშირდება.",
+      "contact.phone_label": "ტელეფონი",
       "contact.email_label": "ელფოსტა",
       "contact.location_label": "მდებარეობა",
       "contact.location_value": "ქუთაისი, საქართველო",
@@ -271,7 +274,8 @@
       "form.subject": "ახალი პროექტის მოთხოვნა —",
 
       "footer.brand": "დამოუკიდებელი ჩამწერი ლეიბლი · ქუთაისი, საქართველო.",
-      "footer.copy": "PAJO Records · PAJO.GE — ყველა უფლება დაცულია."
+      "footer.copy": "PAJO Records · PAJO.GE — ყველა უფლება დაცულია.",
+      "footer.created_by": "შექმნილია"
     },
 
     ru: {
@@ -380,6 +384,7 @@
       "contact.title": "Давайте создадим вашу следующую запись",
       "contact.lead":
         "Расскажите о вашем проекте, и наша команда ответит в течение одного рабочего дня.",
+      "contact.phone_label": "Телефон",
       "contact.email_label": "Эл. почта",
       "contact.location_label": "Местоположение",
       "contact.location_value": "Кутаиси, Грузия",
@@ -400,7 +405,8 @@
       "form.subject": "Новый запрос по проекту от",
 
       "footer.brand": "Независимый лейбл звукозаписи · Кутаиси, Грузия.",
-      "footer.copy": "PAJO Records · PAJO.GE — Все права защищены."
+      "footer.copy": "PAJO Records · PAJO.GE — Все права защищены.",
+      "footer.created_by": "Создано"
     }
   };
 
