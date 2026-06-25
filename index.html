@@ -64,7 +64,7 @@
           <ul class="nav-menu" id="navMenu">
             <li><a href="#about" data-i18n="nav.about">About</a></li>
             <li><a href="#services" data-i18n="nav.services">Services</a></li>
-            <li><a href="#artists" data-i18n="nav.artists">Artists</a></li>
+            <li><a href="#equipment" data-i18n="nav.equipment">Equipment</a></li>
             <li><a href="#why" data-i18n="nav.why">Why Us</a></li>
             <li><a href="#process" data-i18n="nav.process">Process</a></li>
             <li><a href="#contact" class="nav-cta" data-i18n="nav.contact">Contact</a></li>
@@ -90,7 +90,7 @@
         </p>
         <div class="hero-actions">
           <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Start Your Project</a>
-          <a href="#artists" class="btn btn-ghost" data-i18n="hero.cta2">Hear Our Artists</a>
+          <a href="#equipment" class="btn btn-ghost" data-i18n="hero.cta2">Explore the Studio</a>
         </div>
 
         <ul class="hero-stats" aria-label="Label highlights">
@@ -198,7 +198,8 @@
       </div>
     </section>
 
-    <!-- ============ ARTISTS / PROJECTS ============ -->
+    <!-- ============ ARTISTS / PROJECTS (commented out — replaced by Studio Equipment) ============ -->
+    <!--
     <section class="section" id="artists">
       <div class="container">
         <div class="section-head">
@@ -249,6 +250,39 @@
               <p class="artist-genre" data-i18n="artists.a4_genre">R&amp;B · Single</p>
               <p data-i18n="artists.a4_desc">Smooth, late-night R&amp;B with a signature Caucasus warmth.</p>
             </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <!-- ============ STUDIO EQUIPMENT ============ -->
+    <section class="section" id="equipment">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-eyebrow" data-i18n="equipment.eyebrow">Our Gear</p>
+          <h2 class="section-title" data-i18n="equipment.title">Studio Equipment</h2>
+          <p class="section-lead" data-i18n="equipment.lead">
+            Professional, hand-picked gear that gives every PAJO recording its
+            signature clarity and warmth.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">🎙️</span>
+            <h3 data-i18n="equipment.e1_title">Studio Microphones</h3>
+            <p data-i18n="equipment.e1_desc">Neumann TLM 103 · Shure KSM44A</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">🔊</span>
+            <h3 data-i18n="equipment.e2_title">Studio Monitors</h3>
+            <p data-i18n="equipment.e2_desc">ADAM Audio T8</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">🎛️</span>
+            <h3 data-i18n="equipment.e3_title">Audio Interface</h3>
+            <p data-i18n="equipment.e3_desc">UAD Volt 476</p>
           </article>
         </div>
       </div>
@@ -347,31 +381,18 @@
           </ul>
         </div>
 
-        <form class="contact-form" id="contactForm" novalidate>
-          <div class="form-row">
-            <label for="name" data-i18n="form.name">Name</label>
-            <input type="text" id="name" name="name" autocomplete="name" required />
-            <span class="form-error" data-for="name"></span>
-          </div>
-
-          <div class="form-row">
-            <label for="email" data-i18n="form.email">Email</label>
-            <input type="email" id="email" name="email" autocomplete="email" required />
-            <span class="form-error" data-for="email"></span>
-          </div>
-
-          <div class="form-row">
-            <label for="message" data-i18n="form.message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            <span class="form-error" data-for="message"></span>
-          </div>
-
-          <button type="submit" class="btn btn-primary" data-i18n="form.send">Send Message</button>
-          <p class="form-note" data-i18n="form.note">
-            This opens your email app with the message pre-filled — just press send.
-          </p>
-          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
-        </form>
+        <div class="contact-map">
+          <iframe
+            title="PaJo Studio location on Google Maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4887.3227046118855!2d42.664795999999996!3d42.253797999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405cf30035c6a291%3A0x8b87625dd08edaf5!2sPaJo%20Studio!5e1!3m2!1sen!2sge!4v1782384410690!5m2!1sen!2sge"
+            width="600"
+            height="450"
+            style="border:0"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
       </div>
     </section>
   </main>
@@ -390,15 +411,15 @@
       <nav class="footer-nav" aria-label="Footer">
         <a href="#about" data-i18n="nav.about">About</a>
         <a href="#services" data-i18n="nav.services">Services</a>
-        <a href="#artists" data-i18n="nav.artists">Artists</a>
+        <a href="#equipment" data-i18n="nav.equipment">Equipment</a>
         <a href="#contact" data-i18n="nav.contact">Contact</a>
       </nav>
 
       <ul class="social-links" aria-label="Social media">
-        <li><a href="#" aria-label="PAJO Records on Facebook">Facebook</a></li>
-        <li><a href="#" aria-label="PAJO Records on Instagram">Instagram</a></li>
-        <li><a href="#" aria-label="PAJO Records on YouTube">YouTube</a></li>
-        <li><a href="#" aria-label="PAJO Records on TikTok">TikTok</a></li>
+        <li><a href="https://www.facebook.com/PaJoStudioRec" target="_blank" rel="noopener noreferrer" aria-label="PAJO Records on Facebook">Facebook</a></li>
+        <li><a href="https://www.instagram.com/pajostudiorec/" target="_blank" rel="noopener noreferrer" aria-label="PAJO Records on Instagram">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@PaJoMC" target="_blank" rel="noopener noreferrer" aria-label="PAJO Records on YouTube">YouTube</a></li>
+        <li><a href="https://www.tiktok.com/@pajomc" target="_blank" rel="noopener noreferrer" aria-label="PAJO Records on TikTok">TikTok</a></li>
       </ul>
     </div>
 

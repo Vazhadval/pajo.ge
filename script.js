@@ -20,6 +20,7 @@
       "nav.about": "About",
       "nav.services": "Services",
       "nav.artists": "Artists",
+      "nav.equipment": "Equipment",
       "nav.why": "Why Us",
       "nav.process": "Process",
       "nav.contact": "Contact",
@@ -30,7 +31,7 @@
       "hero.tagline":
         "PAJO Records crafts, records and amplifies bold new music — from the first idea in the studio to the moment your track plays around the world.",
       "hero.cta1": "Start Your Project",
-      "hero.cta2": "Hear Our Artists",
+      "hero.cta2": "Explore the Studio",
       "hero.stat1": "Tracks Released",
       "hero.stat2": "Artists Signed",
       "hero.stat3": "Streams",
@@ -77,6 +78,17 @@
       "artists.a3_desc": "A genre-blending project fusing folk vocals with modern synths.",
       "artists.a4_genre": "R&B · Single",
       "artists.a4_desc": "Smooth, late-night R&B with a signature Caucasus warmth.",
+
+      "equipment.eyebrow": "Our Gear",
+      "equipment.title": "Studio Equipment",
+      "equipment.lead":
+        "Professional, hand-picked gear that gives every PAJO recording its signature clarity and warmth.",
+      "equipment.e1_title": "Studio Microphones",
+      "equipment.e1_desc": "Neumann TLM 103 · Shure KSM44A",
+      "equipment.e2_title": "Studio Monitors",
+      "equipment.e2_desc": "ADAM Audio T8",
+      "equipment.e3_title": "Audio Interface",
+      "equipment.e3_desc": "UAD Volt 476",
 
       "why.eyebrow": "Why PAJO",
       "why.title": "Why Artists Choose Us",
@@ -131,6 +143,7 @@
       "nav.about": "ჩვენ შესახებ",
       "nav.services": "სერვისები",
       "nav.artists": "არტისტები",
+      "nav.equipment": "აპარატურა",
       "nav.why": "რატომ ჩვენ",
       "nav.process": "პროცესი",
       "nav.contact": "კონტაქტი",
@@ -141,7 +154,7 @@
       "hero.tagline":
         "PAJO Records ქმნის, წერს და ავრცელებს ახალ მუსიკას — სტუდიაში დაბადებული პირველი იდეიდან მომენტამდე, როცა შენი ტრეკი მთელ მსოფლიოში ჟღერს.",
       "hero.cta1": "დაიწყე პროექტი",
-      "hero.cta2": "მოისმინე ჩვენი არტისტები",
+      "hero.cta2": "გაიცანი სტუდია",
       "hero.stat1": "გამოცემული ტრეკი",
       "hero.stat2": "ხელმოწერილი არტისტი",
       "hero.stat3": "მოსმენა",
@@ -188,6 +201,17 @@
       "artists.a3_desc": "ჟანრების შემრევი პროექტი ფოლკლორული ვოკალითა და თანამედროვე სინთებით.",
       "artists.a4_genre": "R&B · სინგლი",
       "artists.a4_desc": "გლუვი, ღამის R&B კავკასიური სითბოთი.",
+
+      "equipment.eyebrow": "ჩვენი აპარატურა",
+      "equipment.title": "სტუდიური აპარატურა",
+      "equipment.lead":
+        "პროფესიონალური, გულდასმით შერჩეული აპარატურა, რომელიც PAJO-ს ყველა ჩანაწერს ანიჭებს გამორჩეულ სიწმინდესა და სითბოს.",
+      "equipment.e1_title": "სტუდიური მიკროფონები",
+      "equipment.e1_desc": "Neumann TLM 103 · Shure KSM44A",
+      "equipment.e2_title": "სტუდიური მონიტორები",
+      "equipment.e2_desc": "ADAM Audio T8",
+      "equipment.e3_title": "აუდიო ინტერფეისი",
+      "equipment.e3_desc": "UAD Volt 476",
 
       "why.eyebrow": "რატომ PAJO",
       "why.title": "რატომ გვირჩევენ არტისტები",
@@ -242,6 +266,7 @@
       "nav.about": "О нас",
       "nav.services": "Услуги",
       "nav.artists": "Артисты",
+      "nav.equipment": "Оборудование",
       "nav.why": "Почему мы",
       "nav.process": "Процесс",
       "nav.contact": "Контакты",
@@ -252,7 +277,7 @@
       "hero.tagline":
         "PAJO Records создаёт, записывает и продвигает смелую новую музыку — от первой идеи в студии до момента, когда ваш трек звучит по всему миру.",
       "hero.cta1": "Начать проект",
-      "hero.cta2": "Послушать артистов",
+      "hero.cta2": "Изучить студию",
       "hero.stat1": "Выпущенных треков",
       "hero.stat2": "Артистов",
       "hero.stat3": "Прослушиваний",
@@ -299,6 +324,17 @@
       "artists.a3_desc": "Жанровый микс из фолк-вокала и современных синтезаторов.",
       "artists.a4_genre": "R&B · Сингл",
       "artists.a4_desc": "Мягкий, ночной R&B с кавказской теплотой.",
+
+      "equipment.eyebrow": "Наше оборудование",
+      "equipment.title": "Студийное оборудование",
+      "equipment.lead":
+        "Профессиональное, тщательно подобранное оборудование, придающее каждой записи PAJO фирменную чистоту и теплоту.",
+      "equipment.e1_title": "Студийные микрофоны",
+      "equipment.e1_desc": "Neumann TLM 103 · Shure KSM44A",
+      "equipment.e2_title": "Студийные мониторы",
+      "equipment.e2_desc": "ADAM Audio T8",
+      "equipment.e3_title": "Аудиоинтерфейс",
+      "equipment.e3_desc": "UAD Volt 476",
 
       "why.eyebrow": "Почему PAJO",
       "why.title": "Почему артисты выбирают нас",
