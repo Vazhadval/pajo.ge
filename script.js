@@ -1,5 +1,5 @@
 /* ============================================================
-   PAJO Records — script.js
+   PAJO Studio — script.js
    Vanilla JS: i18n (ka/en/ru), mobile menu, smooth scroll,
    reveal, back-to-top, contact form (mailto)
    ============================================================ */
@@ -30,7 +30,7 @@
       "hero.title1": "Your Music",
       "hero.title2": "Starts Here",
       "hero.tagline":
-        "PAJO Records crafts, records and amplifies bold new music — from the first idea in the studio to the moment your track plays around the world.",
+        "PAJO Studio crafts, records and amplifies bold new music — from the first idea in the studio to the moment your track plays around the world.",
       "hero.cta1": "Start Your Project",
       "hero.cta2": "Explore the Studio",
       "hero.stat1": "Tracks Released",
@@ -40,7 +40,7 @@
       "about.eyebrow": "About the Label",
       "about.title": "A Sound Recording Company With Deep Experience",
       "about.p1":
-        "PAJO Records (PAJO.GE) is an independent Georgian record company rooted in the cultural energy of Kutaisi. We are producers, engineers and storytellers who believe great records are made by people who genuinely care about sound.",
+        "PAJO Studio (PAJO.GE) is an independent Georgian record company rooted in the cultural energy of Kutaisi. We are producers, engineers and storytellers who believe great records are made by people who genuinely care about sound.",
       "about.p2":
         "From hip-hop and pop to electronic and traditional fusion, we partner with artists at every stage of their journey — giving them a creative home, a professional studio and a team that treats their music like its own.",
       "about.cta": "Explore What We Do",
@@ -143,7 +143,7 @@
       "form.subject": "New project inquiry from",
 
       "footer.brand": "Independent record label · Kutaisi, Georgia.",
-      "footer.copy": "PAJO Records · PAJO.GE — All rights reserved.",
+      "footer.copy": "PAJO Studio · PAJO.GE — All rights reserved.",
       "footer.created_by": "Created by"
     },
 
@@ -161,7 +161,7 @@
       "hero.title1": "შენი მუსიკა",
       "hero.title2": "აქ იწყება",
       "hero.tagline":
-        "PAJO Records ქმნის, წერს და ავრცელებს ახალ მუსიკას — სტუდიაში დაბადებული პირველი იდეიდან მომენტამდე, როცა შენი ტრეკი მთელ მსოფლიოში ჟღერს.",
+        "PAJO Studio ქმნის, წერს და ავრცელებს ახალ მუსიკას — სტუდიაში დაბადებული პირველი იდეიდან მომენტამდე, როცა შენი ტრეკი მთელ მსოფლიოში ჟღერს.",
       "hero.cta1": "დაიწყე პროექტი",
       "hero.cta2": "გაიცანი სტუდია",
       "hero.stat1": "გამოცემული ტრეკი",
@@ -171,7 +171,7 @@
       "about.eyebrow": "ლეიბლის შესახებ",
       "about.title": "ხმის ჩამწერი კომპანია დიდი გამოცდილებით",
       "about.p1":
-        "PAJO Records (PAJO.GE) არის დამოუკიდებელი ქართული ჩამწერი კომპანია, ფესვგადგმული ქუთაისის კულტურულ ენერგიაში. ჩვენ ვართ პროდიუსერები, ინჟინრები და მთხრობელები, რომელთაც გვწამს, რომ შესანიშნავ ჩანაწერებს ქმნიან ადამიანები, რომელთაც ნამდვილად აინტერესებთ ჟღერადობა.",
+        "PAJO Studio (PAJO.GE) არის დამოუკიდებელი ქართული ჩამწერი კომპანია, ფესვგადგმული ქუთაისის კულტურულ ენერგიაში. ჩვენ ვართ პროდიუსერები, ინჟინრები და მთხრობელები, რომელთაც გვწამს, რომ შესანიშნავ ჩანაწერებს ქმნიან ადამიანები, რომელთაც ნამდვილად აინტერესებთ ჟღერადობა.",
       "about.p2":
         "ჰიპ-ჰოპიდან და პოპიდან ელექტრონულ და ტრადიციულ შერწყმამდე — ჩვენ ვთანამშრომლობთ არტისტებთან მათი გზის ყველა ეტაპზე, ვაძლევთ მათ შემოქმედებით სახლს, პროფესიონალურ სტუდიას და გუნდს, რომელიც მათ მუსიკას საკუთარივით ეპყრობა.",
       "about.cta": "გაიგე მეტი ჩვენს საქმიანობაზე",
@@ -274,7 +274,7 @@
       "form.subject": "ახალი პროექტის მოთხოვნა —",
 
       "footer.brand": "დამოუკიდებელი ჩამწერი ლეიბლი · ქუთაისი, საქართველო.",
-      "footer.copy": "PAJO Records · PAJO.GE — ყველა უფლება დაცულია.",
+      "footer.copy": "PAJO Studio · PAJO.GE — ყველა უფლება დაცულია.",
       "footer.created_by": "შექმნილია"
     },
 
@@ -292,7 +292,7 @@
       "hero.title1": "Твоя музыка",
       "hero.title2": "начинается здесь",
       "hero.tagline":
-        "PAJO Records создаёт, записывает и продвигает смелую новую музыку — от первой идеи в студии до момента, когда ваш трек звучит по всему миру.",
+        "PAJO Studio создаёт, записывает и продвигает смелую новую музыку — от первой идеи в студии до момента, когда ваш трек звучит по всему миру.",
       "hero.cta1": "Начать проект",
       "hero.cta2": "Изучить студию",
       "hero.stat1": "Выпущенных треков",
@@ -302,7 +302,7 @@
       "about.eyebrow": "О лейбле",
       "about.title": "Студия звукозаписи с большим опытом",
       "about.p1":
-        "PAJO Records (PAJO.GE) — независимая грузинская звукозаписывающая компания, укоренённая в культурной энергии Кутаиси. Мы продюсеры, инженеры и рассказчики, верящие, что отличные записи создают люди, которым действительно важен звук.",
+        "PAJO Studio (PAJO.GE) — независимая грузинская звукозаписывающая компания, укоренённая в культурной энергии Кутаиси. Мы продюсеры, инженеры и рассказчики, верящие, что отличные записи создают люди, которым действительно важен звук.",
       "about.p2":
         "От хип-хопа и попа до электроники и традиционного фьюжна — мы работаем с артистами на каждом этапе их пути, давая им творческий дом, профессиональную студию и команду, которая относится к их музыке как к своей.",
       "about.cta": "Узнать больше о нас",
@@ -405,7 +405,7 @@
       "form.subject": "Новый запрос по проекту от",
 
       "footer.brand": "Независимый лейбл звукозаписи · Кутаиси, Грузия.",
-      "footer.copy": "PAJO Records · PAJO.GE — Все права защищены.",
+      "footer.copy": "PAJO Studio · PAJO.GE — Все права защищены.",
       "footer.created_by": "Создано"
     }
   };
