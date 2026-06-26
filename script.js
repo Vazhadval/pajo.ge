@@ -654,7 +654,10 @@
     document.removeEventListener("scroll", unmuteOnInteraction);
   }
 
-  function unmuteOnInteraction() {
+  function unmuteOnInteraction(e) {
+    // Let the mute button handle its own taps (avoids a tap unmuting here and
+    // then the button's click re-muting — which required two taps on mobile).
+    if (e && audioToggle && audioToggle.contains(e.target)) return;
     if (unmutedOnce) return;
     unmutedOnce = true;
     if (beatAudio.paused) beatAudio.play().catch(function () {});
@@ -669,6 +672,8 @@
 
   if (audioToggle) {
     audioToggle.addEventListener("click", function () {
+      unmutedOnce = true;
+      removeStartListeners();
       if (beatAudio.paused) beatAudio.play().catch(function () {});
       // Toggle audible state.
       beatAudio.muted = !beatAudio.muted;
