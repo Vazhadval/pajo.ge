@@ -511,26 +511,6 @@
     });
   });
 
-  /* ---------- Back to top button ---------- */
-  var backToTop = document.getElementById("backToTop");
-  if (backToTop) {
-    window.addEventListener(
-      "scroll",
-      function () {
-        if (window.scrollY > 500) {
-          backToTop.classList.add("visible");
-        } else {
-          backToTop.classList.remove("visible");
-        }
-      },
-      { passive: true }
-    );
-
-    backToTop.addEventListener("click", function () {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
-  }
-
   /* ---------- Scroll reveal animation ---------- */
   var revealTargets = document.querySelectorAll(
     ".section-head, .about-card, .service-card, .artist-card, .why-item, .process-step, .about-copy, .contact-form, .contact-info"

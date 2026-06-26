@@ -905,33 +905,32 @@ p {
   color: var(--red-bright);
 }
 
-/* ---------- Back to top ---------- */
-.back-to-top {
+/* ---------- Floating WhatsApp button ---------- */
+.whatsapp-fab {
   position: fixed;
   right: 24px;
   bottom: 80px;
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
-  border: none;
-  background: var(--red);
-  color: #fff;
-  font-size: 1.3rem;
-  cursor: pointer;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(20px);
-  transition: opacity var(--transition), transform var(--transition),
-    background var(--transition);
-  z-index: 90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface);
+  color: #25d366;
+  border: 2px solid #25d366;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  z-index: 95;
+  transition: background var(--transition), transform var(--transition),
+    border-color var(--transition);
 }
-.back-to-top.visible {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
+.whatsapp-fab:hover {
+  background: #222;
+  border-color: #2ee06f;
+  transform: scale(1.08);
 }
-.back-to-top:hover {
-  background: var(--red-bright);
+.whatsapp-fab svg {
+  display: block;
 }
 
 /* ---------- Floating call button ---------- */
