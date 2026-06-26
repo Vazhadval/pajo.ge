@@ -609,7 +609,8 @@
   var beatAudio = new Audio();
   beatAudio.preload = "auto";
   var audioToggle = document.getElementById("audioToggle");
-  var muted = localStorage.getItem("pajo-muted") === "1";
+  // User's mute preference (persisted across visits).
+  var userMuted = localStorage.getItem("pajo-muted") === "1";
 
   function pickBeat() {
     var i = Math.floor(Math.random() * beats.length);
@@ -623,46 +624,56 @@
     beatAudio.play().catch(function () {});
   });
 
+  // Industry-standard autoplay: start MUTED (browsers allow muted autoplay),
+  // then unmute on the first user interaction so sound begins seamlessly.
+  beatAudio.muted = true;
+  beatAudio.play().catch(function () {});
+
+  // The button reflects whether sound is ACTUALLY audible (playing & not muted).
   function updateAudioUI() {
     if (!audioToggle) return;
-    audioToggle.classList.toggle("muted", muted);
-    audioToggle.setAttribute("aria-pressed", muted ? "true" : "false");
-    audioToggle.setAttribute("aria-label", muted ? "Play music" : "Mute music");
+    var audible = !beatAudio.paused && !beatAudio.muted;
+    audioToggle.classList.toggle("muted", !audible);
+    audioToggle.setAttribute("aria-pressed", audible ? "false" : "true");
+    audioToggle.setAttribute("aria-label", audible ? "Mute music" : "Play music");
   }
 
-  function startBeats() {
-    if (muted) return;
-    beatAudio.play().catch(function () {});
-  }
-
+  beatAudio.addEventListener("play", updateAudioUI);
+  beatAudio.addEventListener("pause", updateAudioUI);
+  beatAudio.addEventListener("volumechange", updateAudioUI); // fires on mute/unmute
   updateAudioUI();
-  startBeats();
 
-  // Browsers block autoplay with sound until the user interacts —
-  // start on the first interaction if it didn't begin automatically.
-  var beatsStarted = false;
-  function firstInteraction() {
-    if (beatsStarted) return;
-    beatsStarted = true;
-    startBeats();
-    document.removeEventListener("click", firstInteraction);
-    document.removeEventListener("keydown", firstInteraction);
-    document.removeEventListener("touchstart", firstInteraction);
+  // Unmute (and ensure playback) on the first interaction, unless the user
+  // has chosen to keep it muted.
+  var unmutedOnce = false;
+
+  function removeStartListeners() {
+    document.removeEventListener("click", unmuteOnInteraction);
+    document.removeEventListener("keydown", unmuteOnInteraction);
+    document.removeEventListener("touchstart", unmuteOnInteraction);
+    document.removeEventListener("scroll", unmuteOnInteraction);
   }
-  document.addEventListener("click", firstInteraction);
-  document.addEventListener("keydown", firstInteraction);
-  document.addEventListener("touchstart", firstInteraction);
+
+  function unmuteOnInteraction() {
+    if (unmutedOnce) return;
+    unmutedOnce = true;
+    if (beatAudio.paused) beatAudio.play().catch(function () {});
+    if (!userMuted) beatAudio.muted = false;
+    removeStartListeners();
+  }
+
+  document.addEventListener("click", unmuteOnInteraction);
+  document.addEventListener("keydown", unmuteOnInteraction);
+  document.addEventListener("touchstart", unmuteOnInteraction);
+  document.addEventListener("scroll", unmuteOnInteraction, { passive: true });
 
   if (audioToggle) {
     audioToggle.addEventListener("click", function () {
-      muted = !muted;
-      localStorage.setItem("pajo-muted", muted ? "1" : "0");
-      if (muted) {
-        beatAudio.pause();
-      } else {
-        beatAudio.play().catch(function () {});
-      }
-      updateAudioUI();
+      if (beatAudio.paused) beatAudio.play().catch(function () {});
+      // Toggle audible state.
+      beatAudio.muted = !beatAudio.muted;
+      userMuted = beatAudio.muted;
+      localStorage.setItem("pajo-muted", userMuted ? "1" : "0");
     });
   }
 
