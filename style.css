@@ -868,12 +868,19 @@ p {
   gap: 12px;
 }
 .social-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   color: var(--text-muted);
   transition: color var(--transition), padding-left var(--transition);
 }
 .social-links a:hover {
   color: var(--red-bright);
   padding-left: 6px;
+}
+.social-icon {
+  flex-shrink: 0;
+  display: block;
 }
 .footer-bottom {
   border-top: 1px solid var(--line);
