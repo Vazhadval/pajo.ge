@@ -600,6 +600,72 @@
     if (e.key === "Escape") closeLightbox();
   });
 
+  /* ---------- Background beats (random) + mute toggle ---------- */
+  var beats = [
+    "assets/beats/Pajo Studio.mp3",
+    "assets/beats/Pajo Studio (1).mp3",
+    "assets/beats/Pajo Studio (2).mp3",
+  ];
+  var beatAudio = new Audio();
+  beatAudio.preload = "auto";
+  var audioToggle = document.getElementById("audioToggle");
+  var muted = localStorage.getItem("pajo-muted") === "1";
+
+  function pickBeat() {
+    var i = Math.floor(Math.random() * beats.length);
+    beatAudio.src = encodeURI(beats[i]);
+  }
+  pickBeat();
+
+  // When a beat finishes, play another random one.
+  beatAudio.addEventListener("ended", function () {
+    pickBeat();
+    beatAudio.play().catch(function () {});
+  });
+
+  function updateAudioUI() {
+    if (!audioToggle) return;
+    audioToggle.classList.toggle("muted", muted);
+    audioToggle.setAttribute("aria-pressed", muted ? "true" : "false");
+    audioToggle.setAttribute("aria-label", muted ? "Play music" : "Mute music");
+  }
+
+  function startBeats() {
+    if (muted) return;
+    beatAudio.play().catch(function () {});
+  }
+
+  updateAudioUI();
+  startBeats();
+
+  // Browsers block autoplay with sound until the user interacts —
+  // start on the first interaction if it didn't begin automatically.
+  var beatsStarted = false;
+  function firstInteraction() {
+    if (beatsStarted) return;
+    beatsStarted = true;
+    startBeats();
+    document.removeEventListener("click", firstInteraction);
+    document.removeEventListener("keydown", firstInteraction);
+    document.removeEventListener("touchstart", firstInteraction);
+  }
+  document.addEventListener("click", firstInteraction);
+  document.addEventListener("keydown", firstInteraction);
+  document.addEventListener("touchstart", firstInteraction);
+
+  if (audioToggle) {
+    audioToggle.addEventListener("click", function () {
+      muted = !muted;
+      localStorage.setItem("pajo-muted", muted ? "1" : "0");
+      if (muted) {
+        beatAudio.pause();
+      } else {
+        beatAudio.play().catch(function () {});
+      }
+      updateAudioUI();
+    });
+  }
+
   /* ---------- Contact form (mailto-based, no backend) ---------- */
   /*
      Note: pure client-side JavaScript cannot send an email on its own —
