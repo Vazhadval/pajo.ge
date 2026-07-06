@@ -348,7 +348,7 @@ p {
   text-align: center;
   overflow: hidden;
   background: linear-gradient(rgba(11, 11, 11, 0.55), rgba(11, 11, 11, 0.7)),
-    url("assets/photo/cover/cover2.jpg") center / cover no-repeat,
+    url("assets/photo/cover/new_cover.jpg") center / cover no-repeat,
     var(--bg);
 }
 .hero-glow {
@@ -1057,7 +1057,7 @@ p {
   .hero {
     padding: 90px 0 80px;
     background: linear-gradient(rgba(11, 11, 11, 0.6), rgba(11, 11, 11, 0.75)),
-      url("assets/photo/cover/cover2.jpg") center top / contain no-repeat,
+      url("assets/photo/cover/new_cover.jpg") center top / contain no-repeat,
       var(--bg);
   }
 
